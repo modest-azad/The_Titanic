@@ -6,7 +6,7 @@ import numpy as np
 with open('trained_model.pkl', 'rb') as model_file:
     trained_model = pickle.load(model_file)
 
-st.title('Titanic Survival Prediction')
+st.title('Titanic Survival Prediction by @modest_azad')
 
 st.write("Note")
 st.write("Please give input based on the changes we made in the data")
